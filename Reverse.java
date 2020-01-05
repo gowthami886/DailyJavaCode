@@ -15,11 +15,11 @@ class Reverse
 	}
 	while(low<high)
 	{
-	temp=a[low];
-	a[low]=a[high];
-	a[high]=temp;
-	low++;
-	high--;
+		temp=a[low];
+		a[low]=a[high];
+		a[high]=temp;
+		low++;
+		high--;
 	}
 	for(i=0;i<n;i++)
 	{
